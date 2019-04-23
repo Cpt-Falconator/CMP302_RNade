@@ -13,22 +13,20 @@ AExplosionActor::AExplosionActor()
 	ExplosionComp->SetVisibility(true, false);
 	ExplosionComp->SetHiddenInGame(false, false);
 	ExplosionComp->SetSimulatePhysics(false);
-
+	RootComponent = ExplosionComp;
 	InitialLifeSpan = 1.0f;
 
 	ExplosionEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ExplosionEffect"));
-	ExplosionEffect->AttachToComponent(RootComponent, FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
-	ExplosionEffect->Activate(false);
-	RootComponent = ExplosionComp;
+	
+	
 }
 
 // Called when the game starts or when spawned
 void AExplosionActor::BeginPlay()
 {
 	Super::BeginPlay();
-	ExplosionEffect->Activate(true);
-
-
+	
+	ExplosionEffect->AttachToComponent(ExplosionComp, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
 // Called every frame
