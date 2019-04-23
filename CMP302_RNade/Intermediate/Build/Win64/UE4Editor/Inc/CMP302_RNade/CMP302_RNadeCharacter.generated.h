@@ -61,11 +61,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACMP302_RNadeCharacter); \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, Mesh1P); } \
 	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, FP_Gun); } \
 	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, FP_MuzzleLocation); } \
-	FORCEINLINE static uint32 __PPO__VR_Gun() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, VR_Gun); } \
-	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, VR_MuzzleLocation); } \
-	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, FirstPersonCameraComponent); } \
-	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, R_MotionController); } \
-	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, L_MotionController); }
+	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(ACMP302_RNadeCharacter, FirstPersonCameraComponent); }
 
 
 #define CMP302_RNade_Source_CMP302_RNade_CMP302_RNadeCharacter_h_11_PROLOG

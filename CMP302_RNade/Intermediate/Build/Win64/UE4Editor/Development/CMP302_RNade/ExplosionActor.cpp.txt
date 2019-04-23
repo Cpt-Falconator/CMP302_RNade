@@ -1,0 +1,13 @@
+C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\Definitions.CMP302_RNade.h
+c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h
+C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Engine/Classes/Particles/ParticleSystemComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h

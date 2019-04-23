@@ -72,4 +72,20 @@
       <Filter>Source\CMP302_RNade</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CMP302_RNade\ImpactBomb.h">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CMP302_RNade\ExplosionActor.h">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CMP302_RNade\ImpactBomb.cpp">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CMP302_RNade\ExplosionActor.cpp">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

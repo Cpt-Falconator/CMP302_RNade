@@ -668,3 +668,467 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.04.23-14.25.02:664][819]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,1420 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
 [2019.04.23-14.25.02:672][819]Warning: Starting HotReload took  1.8s.
 [2019.04.23-14.30.49:479][534]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2019.04.23-14.33.13:264][871]CompilerResultsLog: New page: Compilation - 23 Apr 2019 16:33:13
+[2019.04.23-14.33.13:264][871]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-14.33.13:264][871]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-14.33.13:264][871]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-14.33.13:264][871]CompilerResultsLog: Reflection code generated for CMP302_RNadeEditor in 27.6223524 seconds
+[2019.04.23-14.33.13:264][871]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.23-14.33.13:264][871]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.04.23-14.33.13:264][871]LogMainFrame: MainFrame: Module compiling took 492.276 seconds
+[2019.04.23-14.33.13:264][871]Warning: HotReload failed, recompile failed
+[2019.04.23-14.58.14:077][235]Candidate modules for hot reload:
+[2019.04.23-14.58.14:077][235]  CMP302_RNade
+[2019.04.23-14.58.14:077][235]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,6908 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-14.58.14:086][235]Warning: Starting HotReload took  0.0s.
+[2019.04.23-14.58.35:441][379]CompilerResultsLog: New page: Compilation - 23 Apr 2019 16:58:35
+[2019.04.23-14.58.35:441][379]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-14.58.35:441][379]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-14.58.35:442][379]CompilerResultsLog: Reflection code generated for CMP302_RNadeEditor in 10.154211 seconds
+[2019.04.23-14.58.35:442][379]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.23-14.58.35:442][379]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:   [1/6] CMP302_RNade.init.gen.cpp
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:   [2/6] TimerBomb.cpp
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:   [3/6] TimerBomb.gen.cpp
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:   [4/6] UE4Editor-CMP302_RNade-6908.lib
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:      Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-6908.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-6908.exp
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:   [5/6] UE4Editor-CMP302_RNade-6908.dll
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:      Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-6908.suppressed.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-6908.suppressed.exp
+[2019.04.23-14.58.35:442][379]CompilerResultsLog:   [6/6] CMP302_RNadeEditor.target
+[2019.04.23-14.58.35:442][379]CompilerResultsLog: Total time in Parallel executor: 8.71 seconds
+[2019.04.23-14.58.35:442][379]CompilerResultsLog: Total execution time: 21.14 seconds
+[2019.04.23-14.58.35:442][379]LogMainFrame: MainFrame: Module compiling took 21.371 seconds
+[2019.04.23-14.58.35:533][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.04.23-14.58.35:566][379]LogClass: Could not find existing class TimerBomb in package /Script/CMP302_RNade for HotReload, assuming new class
+[2019.04.23-14.58.35:584][379]LogHotReload: Re-instancing TimerBomb after hot-reload.
+[2019.04.23-14.58.35:710][379]LogContentBrowser: Native class hierarchy updated for 'CMP302_RNade' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2019.04.23-14.58.35:714][379]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.04.23-14.58.35:890][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.04.23-14.58.35:915][379]LogContentBrowser: Native class hierarchy populated in 0.0187 seconds. Added 2738 classes and 663 folders.
+[2019.04.23-14.58.35:916][379]Display: HotReload took 21.9s.
+[2019.04.23-15.03.49:767][360]LogAssetEditorManager: Opening Asset editor for Class /Script/CMP302_RNade.CMP302_RNadeCharacter
+[2019.04.23-15.04.16:703][674]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.23-15.04.48:002][364]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.23-15.04.48:008][364]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.23-15.05.11:819][103]Candidate modules for hot reload:
+[2019.04.23-15.05.11:819][103]  CMP302_RNade
+[2019.04.23-15.05.11:819][103]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,2706 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.05.26:721][103]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:05:26
+[2019.04.23-15.05.26:721][103]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.05.26:721][103]CompilerResultsLog: Creating makefile for CMP302_RNadeEditor (ini files are newer than makefile)
+[2019.04.23-15.05.26:721][103]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.05.26:721][103]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.05.26:721][103]CompilerResultsLog: Error: C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Source/CMP302_RNade/CMP302_RNadeCharacter.h(107)  : Error: Expected an include at the top of the header: '#include "CMP302_RNadeCharacter.generated.h"'
+[2019.04.23-15.05.26:721][103]LogMainFrame: MainFrame: Module compiling took 14.908 seconds
+[2019.04.23-15.05.26:721][103]Warning: HotReload failed, recompile failed
+[2019.04.23-15.05.26:728][103]Warning: RebindPackages failed because compilation failed.
+[2019.04.23-15.05.38:192][103]LogSlate: Window 'Message' being destroyed
+[2019.04.23-15.05.38:226][103]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.04.23-15.05.53:147][817]LogSlate: Window 'Output Log' being destroyed
+[2019.04.23-15.06.39:410][241]Candidate modules for hot reload:
+[2019.04.23-15.06.39:410][241]  CMP302_RNade
+[2019.04.23-15.06.39:411][241]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,7695 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.06.39:421][241]Warning: Starting HotReload took  0.0s.
+[2019.04.23-15.06.55:080][ 43]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:06:55
+[2019.04.23-15.06.55:080][ 43]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.06.55:080][ 43]CompilerResultsLog: Creating makefile for CMP302_RNadeEditor (ini files are newer than makefile)
+[2019.04.23-15.06.55:080][ 43]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.06.55:080][ 43]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.06.55:080][ 43]CompilerResultsLog: Error: C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Source/CMP302_RNade/CMP302_RNadeCharacter.h(107)  : Error: Expected an include at the top of the header: '#include "CMP302_RNadeCharacter.generated.h"'
+[2019.04.23-15.06.55:080][ 43]LogMainFrame: MainFrame: Module compiling took 15.677 seconds
+[2019.04.23-15.06.55:081][ 43]Warning: HotReload failed, recompile failed
+[2019.04.23-15.08.54:387][841]Candidate modules for hot reload:
+[2019.04.23-15.08.54:387][841]  CMP302_RNade
+[2019.04.23-15.08.54:388][841]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,5708 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.08.54:392][841]Warning: Starting HotReload took  0.0s.
+[2019.04.23-15.09.10:252][818]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:09:10
+[2019.04.23-15.09.10:252][818]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.09.10:252][818]CompilerResultsLog: Creating makefile for CMP302_RNadeEditor (ini files are newer than makefile)
+[2019.04.23-15.09.10:252][818]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.09.10:252][818]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.09.10:252][818]CompilerResultsLog: Error: C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Source/CMP302_RNade/CMP302_RNadeCharacter.h(107)  : Error: Expected an include at the top of the header: '#include "CMP302_RNadeCharacter.generated.h"'
+[2019.04.23-15.09.10:252][818]LogMainFrame: MainFrame: Module compiling took 15.870 seconds
+[2019.04.23-15.09.10:252][818]Warning: HotReload failed, recompile failed
+[2019.04.23-15.09.47:271][851]Candidate modules for hot reload:
+[2019.04.23-15.09.47:271][851]  CMP302_RNade
+[2019.04.23-15.09.47:271][851]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,5519 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.09.47:280][851]Warning: Starting HotReload took  0.0s.
+[2019.04.23-15.10.02:789][998]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:10:02
+[2019.04.23-15.10.02:789][998]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.10.02:789][998]CompilerResultsLog: Creating makefile for CMP302_RNadeEditor (ini files are newer than makefile)
+[2019.04.23-15.10.02:789][998]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.10.02:789][998]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.10.02:789][998]CompilerResultsLog: Error: C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Source/CMP302_RNade/ImpactBomb.h(20)  : Error: Class 'AExplosionActor' not found.
+[2019.04.23-15.10.02:789][998]LogMainFrame: MainFrame: Module compiling took 15.523 seconds
+[2019.04.23-15.10.02:790][998]Warning: HotReload failed, recompile failed
+[2019.04.23-15.10.59:292][612]Candidate modules for hot reload:
+[2019.04.23-15.10.59:292][612]  CMP302_RNade
+[2019.04.23-15.10.59:293][612]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,8550 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:11:22
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: Creating makefile for CMP302_RNadeEditor (ini files are newer than makefile)
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.11.22:185][612]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: Reflection code generated for CMP302_RNadeEditor in 11.0786348 seconds
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: Error: C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\CMP302_RNadeCharacter.cpp(1) : error: Expected CMP302_RNadeCharacter.h to be first header included.
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.23-15.11.22:185][612]CompilerResultsLog: Building 11 actions with 8 processes...
+[2019.04.23-15.11.22:185][612]CompilerResultsLog:   [1/11] CMP302_RNadeCharacter.cpp
+[2019.04.23-15.11.22:185][612]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\CMP302_RNadeCharacter.cpp(3): fatal error C1083: Cannot open include file: 'ACMP302_RNadeCharacter.h': No such file or directory
+[2019.04.23-15.11.22:185][612]CompilerResultsLog:   [2/11] CMP302_RNade.init.gen.cpp
+[2019.04.23-15.11.22:185][612]CompilerResultsLog:   [3/11] ExplosionActor.cpp
+[2019.04.23-15.11.22:185][612]CompilerResultsLog:   [4/11] ImpactBomb.cpp
+[2019.04.23-15.11.22:185][612]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2019.04.23-15.11.22:186][612]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2019.04.23-15.11.22:186][612]CompilerResultsLog: 
+[2019.04.23-15.11.22:186][612]CompilerResultsLog: 
+[2019.04.23-15.11.22:186][612]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2019.04.23-15.11.22:186][612]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2019.04.23-15.11.22:186][612]CompilerResultsLog:   [5/11] ExplosionActor.gen.cpp
+[2019.04.23-15.11.22:186][612]CompilerResultsLog:   [6/11] ImpactBomb.gen.cpp
+[2019.04.23-15.11.22:186][612]CompilerResultsLog:   [7/11] CMP302_RNadeCharacter.gen.cpp
+[2019.04.23-15.11.22:186][612]CompilerResultsLog:   [8/11] CMP302_RNadeGameMode.cpp
+[2019.04.23-15.11.22:186][612]LogMainFrame: MainFrame: Module compiling took 22.901 seconds
+[2019.04.23-15.11.22:186][612]Warning: HotReload failed, recompile failed
+[2019.04.23-15.11.22:192][612]Warning: RebindPackages failed because compilation failed.
+[2019.04.23-15.12.08:986][612]LogSlate: Window 'Message' being destroyed
+[2019.04.23-15.12.08:992][612]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.04.23-15.12.11:661][843]Candidate modules for hot reload:
+[2019.04.23-15.12.11:661][843]  CMP302_RNade
+[2019.04.23-15.12.11:661][843]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,3629 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.12.11:666][843]Warning: Starting HotReload took  0.0s.
+[2019.04.23-15.12.40:017][214]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:12:40
+[2019.04.23-15.12.40:018][214]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.12.40:018][214]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.12.40:018][214]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.12.40:018][214]CompilerResultsLog: Reflection code generated for CMP302_RNadeEditor in 13.4570381 seconds
+[2019.04.23-15.12.40:018][214]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.23-15.12.40:019][214]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:   [1/8] CMP302_RNadeCharacter.cpp
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\CMP302_RNadeCharacter.cpp(3): fatal error C1083: Cannot open include file: 'ACMP302_RNadeCharacter.h': No such file or directory
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:   [2/8] CMP302_RNade.init.gen.cpp
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:   [3/8] ExplosionActor.gen.cpp
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(10) : error C2079: 'AExplosionActor' uses undefined class 'RNADE_API'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(10) : error C2143: syntax error: missing ';' before ':'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(10) : error C2059: syntax error: ':'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(10) : error C2059: syntax error: 'public'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(11) : error C2143: syntax error: missing ';' before '{'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(23) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:   c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(28) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:   c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:019][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(28) : error C2672: 'StaticClass': no matching overloaded function found
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(28) : error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(68) : error C2132: syntax error: unexpected identifier
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(68): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(76) : error C2132: syntax error: unexpected identifier
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(76): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(84) : error C2132: syntax error: unexpected identifier
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(84): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(91) : error C2923: 'TCppClassTypeTraits': 'AExplosionActor' is not a valid template type argument for parameter 'CPPCLASS'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(10): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(91) : error C2955: 'TCppClassTypeTraits': use of class template requires template argument list
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2067): note: see declaration of 'TCppClassTypeTraits'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(92): warning C4305: 'initializing': truncation from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to 'bool'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(94) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(94) : error C2078: too many initializers
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(107) : error C2440: 'initializing': cannot convert from 'overloaded-function' to 'UClass *(__cdecl *)(void)'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(107): note: None of the functions with this name in scope match the target type
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C2923: 'TClassCompiledInDefer': 'AExplosionActor' is not a valid template type argument for parameter 'TClass'
+[2019.04.23-15.12.40:020][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade/ExplosionActor.h(10): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C2514: 'TClassCompiledInDefer': class has no constructors
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(333): note: see declaration of 'TClassCompiledInDefer'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:   c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C3861: 'StaticPackage': identifier not found
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C2065: 'StaticClassFlags': undeclared identifier
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C3861: 'StaticClassCastFlags': identifier not found
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C3861: 'StaticConfigName': identifier not found
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C2440: 'type cast': cannot convert from 'void (__cdecl *)(const FObjectInitializer &)' to 'UClass::ClassConstructorType'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117): note: None of the functions with this name in scope match the target type
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C2440: 'type cast': cannot convert from 'UObject *(__cdecl *)(FVTableHelper &)' to 'UClass::ClassVTableHelperCtorCallerType'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117): note: None of the functions with this name in scope match the target type
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(117) : error C2065: 'AddReferencedObjects': undeclared identifier
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(119) : error C2912: explicit specialization 'UClass *StaticClass<AExplosionActor>(void)' is not a specialization of a function template
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(120) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:   c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(120) : error C2672: 'StaticClass': no matching overloaded function found
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(120) : error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+[2019.04.23-15.12.40:021][214]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(122) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:   c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(122) : error C2664: 'FCompiledInDefer::FCompiledInDefer(FCompiledInDefer &&)': cannot convert argument 2 from 'UClass *(__cdecl *)(void)' to 'UClass *(__cdecl *)(void)'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(122): note: None of the functions with this name in scope match the target type
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(123) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:   c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(123) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(123) : error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.gen.cpp(123) : error C4508: '{ctor}': function should return a value; 'void' return type assumed
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:   [4/8] ExplosionActor.cpp
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2079: 'AExplosionActor' uses undefined class 'RNADE_API'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2143: syntax error: missing ';' before ':'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2059: syntax error: ':'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2059: syntax error: 'public'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(11) : error C2143: syntax error: missing ';' before '{'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(8) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(9) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(10) : error C2065: 'ExplosionComp': undeclared identifier
+[2019.04.23-15.12.40:022][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(10) : error C2065: 'CreateDefaultSubobject': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(10) : error C2275: 'USphereComponent': illegal use of this type as an expression
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h(17): note: see declaration of 'USphereComponent'
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(11) : error C2065: 'ExplosionComp': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(11) : error C2065: 'explosionRadius': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(12) : error C2065: 'ExplosionComp': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(13) : error C2065: 'ExplosionComp': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(14) : error C2065: 'ExplosionComp': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(15) : error C2065: 'ExplosionComp': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(17) : error C2065: 'InitialLifeSpan': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(19) : error C2065: 'ExplosionEffect': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(19) : error C2065: 'CreateDefaultSubobject': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(19) : error C2275: 'UParticleSystemComponent': illegal use of this type as an expression
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Engine/Classes/Particles/ParticleSystemComponent.h(331): note: see declaration of 'UParticleSystemComponent'
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(20) : error C2065: 'ExplosionEffect': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(20) : error C2065: 'RootComponent': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(21) : error C2065: 'ExplosionEffect': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(22) : error C2065: 'RootComponent': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(22) : error C2065: 'ExplosionComp': undeclared identifier
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(23) : error C4508: '{ctor}': function should return a value; 'void' return type assumed
+[2019.04.23-15.12.40:023][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(26) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(28) : error C2653: 'Super': is not a class or namespace name
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(29) : error C2065: 'ExplosionEffect': undeclared identifier
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(35) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(37) : error C2653: 'Super': is not a class or namespace name
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(41) : error C2027: use of undefined type 'AExplosionActor'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.generated.h(89): note: see declaration of 'AExplosionActor'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(44) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(46) : error C3861: 'GetVelocity': identifier not found
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(46) : error C3861: 'GetActorLocation': identifier not found
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ExplosionActor.cpp(47) : error C3861: 'Destroy': identifier not found
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:   [5/8] ImpactBomb.cpp
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2079: 'AExplosionActor' uses undefined class 'RNADE_API'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2143: syntax error: missing ';' before ':'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2059: syntax error: ':'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(10) : error C2059: syntax error: 'public'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(11) : error C2143: syntax error: missing ';' before '{'
+[2019.04.23-15.12.40:024][214]CompilerResultsLog:    c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2019.04.23-15.12.40:025][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ImpactBomb.cpp(48) : error C2672: 'UWorld::SpawnActor': no matching overloaded function found
+[2019.04.23-15.12.40:025][214]CompilerResultsLog:    C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\ImpactBomb.cpp(48) : error C2974: 'UWorld::SpawnActor': invalid template argument for 'T', type expected
+[2019.04.23-15.12.40:025][214]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/World.h(2911): note: see declaration of 'UWorld::SpawnActor'
+[2019.04.23-15.12.40:025][214]LogMainFrame: MainFrame: Module compiling took 28.370 seconds
+[2019.04.23-15.12.40:025][214]Warning: HotReload failed, recompile failed
+[2019.04.23-15.12.46:412][232]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (37.394 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.23-15.13.20:067][299]Candidate modules for hot reload:
+[2019.04.23-15.13.20:067][299]  CMP302_RNade
+[2019.04.23-15.13.20:067][299]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,7108 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.13.20:091][299]Warning: Starting HotReload took  0.0s.
+[2019.04.23-15.13.41:538][623]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:13:41
+[2019.04.23-15.13.41:538][623]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.13.41:538][623]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.13.41:538][623]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.13.41:538][623]CompilerResultsLog: Reflection code generated for CMP302_RNadeEditor in 12.0905688 seconds
+[2019.04.23-15.13.41:539][623]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.23-15.13.41:539][623]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.04.23-15.13.41:539][623]CompilerResultsLog:   [1/8] CMP302_RNadeCharacter.cpp
+[2019.04.23-15.13.41:539][623]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\CMP302_RNadeCharacter.cpp(3): fatal error C1083: Cannot open include file: 'ACMP302_RNadeCharacter.h': No such file or directory
+[2019.04.23-15.13.41:539][623]CompilerResultsLog:   [2/8] CMP302_RNade.init.gen.cpp
+[2019.04.23-15.13.41:539][623]CompilerResultsLog:   [3/8] ExplosionActor.gen.cpp
+[2019.04.23-15.13.41:539][623]CompilerResultsLog:   [4/8] ExplosionActor.cpp
+[2019.04.23-15.13.41:539][623]CompilerResultsLog:   [5/8] ImpactBomb.cpp
+[2019.04.23-15.13.41:539][623]LogMainFrame: MainFrame: Module compiling took 21.478 seconds
+[2019.04.23-15.13.41:539][623]Warning: HotReload failed, recompile failed
+[2019.04.23-15.14.00:460][797]LogSlate: Window 'Message Log' being destroyed
+[2019.04.23-15.14.03:682][904]Candidate modules for hot reload:
+[2019.04.23-15.14.03:682][904]  CMP302_RNade
+[2019.04.23-15.14.03:683][904]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,892 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.14.03:704][904]Warning: Starting HotReload took  0.0s.
+[2019.04.23-15.14.19:753][735]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:14:19
+[2019.04.23-15.14.19:753][735]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.14.19:753][735]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.14.19:753][735]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.14.19:753][735]CompilerResultsLog: Reflection code generated for CMP302_RNadeEditor in 12.2983394 seconds
+[2019.04.23-15.14.19:753][735]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.23-15.14.19:753][735]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.04.23-15.14.19:753][735]CompilerResultsLog:   [1/4] CMP302_RNadeCharacter.cpp
+[2019.04.23-15.14.19:754][735]CompilerResultsLog:   C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Source\CMP302_RNade\CMP302_RNadeCharacter.cpp(3): fatal error C1083: Cannot open include file: 'ACMP302_RNadeCharacter.h': No such file or directory
+[2019.04.23-15.14.19:754][735]LogMainFrame: MainFrame: Module compiling took 16.076 seconds
+[2019.04.23-15.14.19:754][735]Warning: HotReload failed, recompile failed
+[2019.04.23-15.15.03:249][664]Candidate modules for hot reload:
+[2019.04.23-15.15.03:249][664]  CMP302_RNade
+[2019.04.23-15.15.03:249][664]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CMP302_RNade,2157 Win64 Development -TargetType=Editor -Project="C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject" "C:/Users/falco/Desktop/CMP302_RNade/CMP302_RNade/CMP302_RNade.uproject"  -IgnoreJunk]
+[2019.04.23-15.15.03:258][664]Warning: Starting HotReload took  0.0s.
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: New page: Compilation - 23 Apr 2019 17:15:28
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\falco\Desktop\CMP302_RNade).
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: Parsing headers for CMP302_RNadeEditor
+[2019.04.23-15.15.28:122][440]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: Reflection code generated for CMP302_RNadeEditor in 13.0478848 seconds
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.04.23-15.15.28:122][440]CompilerResultsLog:   [1/4] CMP302_RNadeCharacter.cpp
+[2019.04.23-15.15.28:122][440]CompilerResultsLog:   [2/4] UE4Editor-CMP302_RNade-2157.lib
+[2019.04.23-15.15.28:122][440]CompilerResultsLog:      Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-2157.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-2157.exp
+[2019.04.23-15.15.28:122][440]CompilerResultsLog:   [3/4] UE4Editor-CMP302_RNade-2157.dll
+[2019.04.23-15.15.28:122][440]CompilerResultsLog:      Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-2157.suppressed.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-2157.suppressed.exp
+[2019.04.23-15.15.28:122][440]CompilerResultsLog:   [4/4] CMP302_RNadeEditor.target
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: Total time in Parallel executor: 9.30 seconds
+[2019.04.23-15.15.28:122][440]CompilerResultsLog: Total execution time: 24.73 seconds
+[2019.04.23-15.15.28:122][440]LogMainFrame: MainFrame: Module compiling took 24.879 seconds
+[2019.04.23-15.15.28:262][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.04.23-15.15.28:307][440]LogClass: Could not find existing class CMP302_RNadeCharacter in package /Script/CMP302_RNade for HotReload, assuming new class
+[2019.04.23-15.15.28:315][440]LogClass: Could not find existing class ExplosionActor in package /Script/CMP302_RNade for HotReload, assuming new class
+[2019.04.23-15.15.28:315][440]LogClass: Could not find existing class ImpactBomb in package /Script/CMP302_RNade for HotReload, assuming new class
+[2019.04.23-15.15.28:315][440]LogClass: Function OnHit is new.
+[2019.04.23-15.15.28:321][440]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.23-15.15.29:203][440]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.882 s
+[2019.04.23-15.15.29:203][440]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.23-15.15.29:203][440]LogOutputDevice: Error: 
+[2019.04.23-15.15.29:203][440]LogOutputDevice: Error: Ensure condition failed: !AttachmentRules.bWeldSimulatedBodies [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1785]
+[2019.04.23-15.15.29:203][440]LogOutputDevice: Error: AttachToComponent when called from a constructor cannot weld simulated bodies. Consider calling SetupAttachment directly instead.
+[2019.04.23-15.15.29:203][440]LogOutputDevice: Error: Stack: 
+[2019.04.23-15.15.29:203][440]LogOutputDevice: Error: [Callstack] 0x00007ffcbb2b72a9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffcba0f47cb UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffd1a9268fd UE4Editor-CMP302_RNade-2157.dll!AExplosionActor::AExplosionActor() [c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\explosionactor.cpp:21]
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffceaba612f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffceade1076 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffceadcee0f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffceabaa747 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffccffb4a2b UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffcd0185c85 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffcd0185023 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffcaec1df69 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffcaec1be47 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffcaec1c6bf UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffcaec2c5a5 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffccff508ba UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ff7fa2792d2 UE4Editor.exe!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ff7fa28554c UE4Editor.exe!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ff7fa2855ca UE4Editor.exe!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ff7fa29315c UE4Editor.exe!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ff7fa295b7e UE4Editor.exe!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffd23114034 KERNEL32.DLL!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: [Callstack] 0x00007ffd23e73691 ntdll.dll!UnknownFunction []
+[2019.04.23-15.15.29:204][440]LogOutputDevice: Error: 
+[2019.04.23-15.15.29:212][440]LogStats:                SubmitErrorReport -  0.000 s
+[2019.04.23-15.15.31:730][440]LogStats:                    SendNewReport -  2.517 s
+[2019.04.23-15.15.31:730][440]LogStats:             FDebug::EnsureFailed -  3.409 s
+[2019.04.23-15.15.31:746][440]LogHotReload: Re-instancing CMP302_RNadeCharacter after hot-reload.
+[2019.04.23-15.15.32:065][440]LogContentBrowser: Native class hierarchy updated for 'CMP302_RNade' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2019.04.23-15.15.32:070][440]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.04.23-15.15.32:264][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.04.23-15.15.32:288][440]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2740 classes and 663 folders.
+[2019.04.23-15.15.32:288][440]Display: HotReload took 29.1s.
+[2019.04.23-15.15.55:025][940]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/TimerBomb_BP.TimerBomb_BP
+[2019.04.23-15.15.55:751][940]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 121 classes and 0 folders.
+[2019.04.23-15.15.57:269][940]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.04.23-15.16.06:980][589]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ImpactBomb_BP.ImpactBomb_BP
+[2019.04.23-15.16.07:522][589]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.04.23-15.16.13:739][ 56]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ImpactBomb_BP.ImpactBomb_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ImpactBomb_BP.PackageMetaData'
+[2019.04.23-15.16.13:739][ 56]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ImpactBomb_BP.SKEL_ImpactBomb_BP_C:UserConstructionScript' ref from Metadata '/Game/ImpactBomb_BP.PackageMetaData'
+[2019.04.23-15.16.13:739][ 56]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ImpactBomb_BP.SKEL_ImpactBomb_BP_C' ref from Metadata '/Game/ImpactBomb_BP.PackageMetaData'
+[2019.04.23-15.16.13:739][ 56]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ImpactBomb_BP.ImpactBomb_BP_C' ref from Metadata '/Game/ImpactBomb_BP.PackageMetaData'
+[2019.04.23-15.16.13:739][ 56]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ImpactBomb_BP.ImpactBomb_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ImpactBomb_BP.PackageMetaData'
+[2019.04.23-15.16.13:739][ 56]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ImpactBomb_BP.ImpactBomb_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ImpactBomb_BP.PackageMetaData'
+[2019.04.23-15.16.13:739][ 56]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ImpactBomb_BP.ImpactBomb_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ImpactBomb_BP.PackageMetaData'
+[2019.04.23-15.16.13:803][ 56]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/ImpactBomb_BP7B86B67849B9D2D3E608FDA9BA538AC0.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Content/FirstPersonCPP/Blueprints/ImpactBomb_BP.uasset'
+[2019.04.23-15.16.14:156][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   6.88ms
+[2019.04.23-15.16.14:301][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2019.04.23-15.16.14:433][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.04.23-15.16.26:358][940]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ExplosionA_BP.ExplosionA_BP
+[2019.04.23-15.16.26:902][940]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.04.23-15.16.29:827][151]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ExplosionA_BP.ExplosionA_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ExplosionA_BP.PackageMetaData'
+[2019.04.23-15.16.29:827][151]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ExplosionA_BP.SKEL_ExplosionA_BP_C:UserConstructionScript' ref from Metadata '/Game/ExplosionA_BP.PackageMetaData'
+[2019.04.23-15.16.29:827][151]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ExplosionA_BP.SKEL_ExplosionA_BP_C' ref from Metadata '/Game/ExplosionA_BP.PackageMetaData'
+[2019.04.23-15.16.29:827][151]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ExplosionA_BP.ExplosionA_BP_C' ref from Metadata '/Game/ExplosionA_BP.PackageMetaData'
+[2019.04.23-15.16.29:827][151]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ExplosionA_BP.ExplosionA_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ExplosionA_BP.PackageMetaData'
+[2019.04.23-15.16.29:827][151]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ExplosionA_BP.ExplosionA_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ExplosionA_BP.PackageMetaData'
+[2019.04.23-15.16.29:827][151]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/ExplosionA_BP.ExplosionA_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ExplosionA_BP.PackageMetaData'
+[2019.04.23-15.16.29:887][151]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/ExplosionA_BPE3B6BEA643E2C2AAC9B9DCA05A8CC855.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Content/FirstPersonCPP/Blueprints/ExplosionA_BP.uasset'
+[2019.04.23-15.16.30:216][151]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2019.04.23-15.16.30:358][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.04.23-15.16.30:498][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.04.23-15.16.34:337][382]LogSlate: Took 0.008548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.23-15.17.00:320][ 50]BlueprintLog: New page: Compile TimerBomb_BP
+[2019.04.23-15.17.00:817][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   9.88ms
+[2019.04.23-15.17.01:223][ 76]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/TimerBomb_BP117C7028475B464007B8E48FD846255A.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Content/FirstPersonCPP/Blueprints/TimerBomb_BP.uasset'
+[2019.04.23-15.17.01:683][109]BlueprintLog: New page: Compile TimerBomb_BP
+[2019.04.23-15.17.02:128][109]LogUObjectHash: Compacting FUObjectHashTables data took   7.12ms
+[2019.04.23-15.17.39:629][766]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.23-15.18.03:182][634]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/ImpactBomb_BPFFE013F94B6E86CB94B90188B8FF290B.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Content/FirstPersonCPP/Blueprints/ImpactBomb_BP.uasset'
+[2019.04.23-15.18.03:440][648]BlueprintLog: New page: Compile ImpactBomb_BP
+[2019.04.23-15.18.03:845][648]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2019.04.23-15.18.28:264][452]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/ExplosionA_BP03FA7BE5403CB254980251A5AC083FFA.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Content/FirstPersonCPP/Blueprints/ExplosionA_BP.uasset'
+[2019.04.23-15.18.28:626][472]BlueprintLog: New page: Compile ExplosionA_BP
+[2019.04.23-15.18.29:043][472]LogUObjectHash: Compacting FUObjectHashTables data took   6.53ms
+[2019.04.23-15.18.33:170][740]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.04.23-15.18.54:471][183]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.23-15.18.59:193][484]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/FirstPersonCharacterC2486C2E43ABD49D7A92659615FE9F4B.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.04.23-15.18.59:486][499]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.04.23-15.19.00:094][499]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2019.04.23-15.19.00:914][527]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-15.19.00:983][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.00:990][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-15.19.00:990][527]PIE: New page: PIE session: FirstPersonExampleMap (23 Apr 2019 17:19:00)
+[2019.04.23-15.19.01:019][527]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.23-15.19.01:169][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149042s)
+[2019.04.23-15.19.01:174][527]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.23-15.19.01:175][527]LogPlayLevel: PIE: World Init took: (0.002554s)
+[2019.04.23-15.19.01:176][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.156158s)
+[2019.04.23-15.19.01:316][527]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2019.04.23-15.19.01:384][527]LogInit: XAudio2 using 'ASUS VP278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-15.19.01:398][527]LogInit: FAudioDevice initialized.
+[2019.04.23-15.19.01:459][527]LogLoad: Game class is 'CMP302_RNadeGameMode'
+[2019.04.23-15.19.01:472][527]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.23-16.19.01
+[2019.04.23-15.19.01:474][527]LogWorld: Bringing up level for play took: 0.004839
+[2019.04.23-15.19.01:517][527]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.04.23-15.19.01:521][527]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.066
+[2019.04.23-15.19.01:521][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.10:666][118]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.10:667][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.19.10:705][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-15.19.10:705][118]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.10:864][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.19.10:916][118]LogUObjectHash: Compacting FUObjectHashTables data took  11.38ms
+[2019.04.23-15.19.10:959][119]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.04.23-15.19.12:648][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.19.19:988][683]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/ImpactBomb_BPD51C42EA44E559E9D72460A08A9EDCA8.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Content/FirstPersonCPP/Blueprints/ImpactBomb_BP.uasset'
+[2019.04.23-15.19.20:331][700]BlueprintLog: New page: Compile ImpactBomb_BP
+[2019.04.23-15.19.20:820][700]LogUObjectHash: Compacting FUObjectHashTables data took   8.14ms
+[2019.04.23-15.19.22:270][774]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.23-15.19.22:313][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.22:313][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-15.19.22:313][774]PIE: New page: PIE session: FirstPersonExampleMap (23 Apr 2019 17:19:22)
+[2019.04.23-15.19.22:313][774]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.23-15.19.22:336][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022917s)
+[2019.04.23-15.19.22:337][774]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.23-15.19.22:337][774]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2019.04.23-15.19.22:337][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024219s)
+[2019.04.23-15.19.22:480][774]LogUObjectHash: Compacting FUObjectHashTables data took   8.26ms
+[2019.04.23-15.19.22:546][774]LogInit: XAudio2 using 'ASUS VP278 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.23-15.19.22:560][774]LogInit: FAudioDevice initialized.
+[2019.04.23-15.19.22:603][774]LogLoad: Game class is 'CMP302_RNadeGameMode'
+[2019.04.23-15.19.22:606][774]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.23-16.19.22
+[2019.04.23-15.19.22:606][774]LogWorld: Bringing up level for play took: 0.002433
+[2019.04.23-15.19.22:619][774]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.164
+[2019.04.23-15.19.22:619][774]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.37:764][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.37:765][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.19.37:800][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-15.19.37:800][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.23-15.19.37:951][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.19.37:961][927]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2019.04.23-15.19.37:998][928]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.04.23-15.20.09:224][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.04.23-15.20.09:722][509]LogSavePackage: Moving '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/FirstPersonExampleMap_Auto1953A014B41267B8DAC93DEAAB6FBBF86.tmp' to '../../../../../../Users/falco/Desktop/CMP302_RNade/CMP302_RNade/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.04.23-15.20.09:736][509]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.638
+[2019.04.23-15.20.09:736][509]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.638
+[2019.04.23-15.23.32:023][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
