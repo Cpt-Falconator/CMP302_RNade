@@ -1,0 +1,10 @@
+C:\Users\falco\Documents\Unreal Projects\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\Definitions.CMP302_RNade.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\falco\Documents\Unreal Projects\CMP302_RNade\Source\CMP302_RNade/CMP302_RNadeHUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+c:\users\falco\documents\unreal projects\cmp302_rnade\intermediate\build\win64\ue4editor\inc\cmp302_rnade\CMP302_RNadeHUD.generated.h
