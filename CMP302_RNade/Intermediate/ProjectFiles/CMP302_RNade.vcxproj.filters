@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CMP302_RNade.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E36D05D5-EC51-4C98-B154-D79722921266}</UniqueIdentifier>
+      <UniqueIdentifier>{8F3E79E9-3A5F-4908-8F2C-BE109723A85F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CMP302_RNade.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B4015D9E-0BFD-4B86-9589-C90EECB338F1}</UniqueIdentifier>
+      <UniqueIdentifier>{CC0CD967-68AF-4B0B-83A8-FA450611A427}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CMP302_RNade">
-      <UniqueIdentifier>{002501DE-B992-4DDD-974C-A49E40D7A328}</UniqueIdentifier>
+      <UniqueIdentifier>{82D58982-1262-4855-B911-0FD0556E8FB5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CMP302_RNade\CMP302_RNade.Build.cs">
       <Filter>Source\CMP302_RNade</Filter>
@@ -63,6 +63,12 @@
       <Filter>Source\CMP302_RNade</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CMP302_RNade\CMP302_RNadeProjectile.h">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CMP302_RNade\TimerBomb.cpp">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CMP302_RNade\TimerBomb.h">
       <Filter>Source\CMP302_RNade</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,3 +1,0 @@
-C:\Users\falco\Documents\Unreal Projects\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\Definitions.CMP302_RNade.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
