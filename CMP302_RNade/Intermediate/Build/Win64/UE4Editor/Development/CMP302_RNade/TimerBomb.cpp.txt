@@ -1,6 +1,8 @@
 C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\Definitions.CMP302_RNade.h
 c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\TimerBomb.h
 C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\TimerBomb.generated.h
+c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ExplosionActor.h
+C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ExplosionActor.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h

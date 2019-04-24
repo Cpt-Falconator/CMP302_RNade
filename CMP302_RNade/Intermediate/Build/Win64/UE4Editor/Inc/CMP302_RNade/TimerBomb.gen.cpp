@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeTimerBomb() {}
 	CMP302_RNADE_API UClass* Z_Construct_UClass_ATimerBomb();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CMP302_RNade();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	CMP302_RNADE_API UClass* Z_Construct_UClass_AExplosionActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
@@ -37,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeTimerBomb() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_countdownTimer_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_countdownTimer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Explosion_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Explosion;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovement_MetaData[];
 #endif
@@ -67,6 +73,13 @@ void EmptyLinkFunctionForGeneratedCodeTimerBomb() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATimerBomb_Statics::NewProp_countdownTimer = { "countdownTimer", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATimerBomb, countdownTimer), METADATA_PARAMS(Z_Construct_UClass_ATimerBomb_Statics::NewProp_countdownTimer_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATimerBomb_Statics::NewProp_countdownTimer_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATimerBomb_Statics::NewProp_Explosion_MetaData[] = {
+		{ "Category", "Explosion" },
+		{ "ModuleRelativePath", "TimerBomb.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATimerBomb_Statics::NewProp_Explosion = { "Explosion", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATimerBomb, Explosion), Z_Construct_UClass_AExplosionActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATimerBomb_Statics::NewProp_Explosion_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATimerBomb_Statics::NewProp_Explosion_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATimerBomb_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "Category", "ProjectileMovement" },
 		{ "EditInline", "true" },
@@ -84,6 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeTimerBomb() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATimerBomb_Statics::NewProp_timerbombMesh = { "timerbombMesh", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATimerBomb, timerbombMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATimerBomb_Statics::NewProp_timerbombMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATimerBomb_Statics::NewProp_timerbombMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATimerBomb_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimerBomb_Statics::NewProp_countdownTimer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimerBomb_Statics::NewProp_Explosion,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimerBomb_Statics::NewProp_ProjectileMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimerBomb_Statics::NewProp_timerbombMesh,
 	};
@@ -114,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeTimerBomb() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATimerBomb, 103889383);
+	IMPLEMENT_CLASS(ATimerBomb, 2637540281);
 	template<> CMP302_RNADE_API UClass* StaticClass<ATimerBomb>()
 	{
 		return ATimerBomb::StaticClass();

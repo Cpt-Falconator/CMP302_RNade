@@ -3,6 +3,7 @@
 #include "CMP302_RNadeCharacter.h"
 #include "TimerBomb.h"
 #include "ImpactBomb.h"
+#include "MineBomb.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -45,6 +46,7 @@ ACMP302_RNadeCharacter::ACMP302_RNadeCharacter()
 	FP_Gun->CastShadow = false;
 	// FP_Gun->SetupAttachment(Mesh1P, TEXT("GripPoint"));
 	FP_Gun->SetupAttachment(RootComponent);
+	
 
 	FP_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzleLocation"));
 	FP_MuzzleLocation->SetupAttachment(FP_Gun);
@@ -53,7 +55,7 @@ ACMP302_RNadeCharacter::ACMP302_RNadeCharacter()
 	// Default offset from the character location for projectiles to spawn
 	GunOffset = FVector(100.0f, 0.0f, 10.0f);
 
-
+	this->Tags.Add(FName("Player"));
 }
 
 void ACMP302_RNadeCharacter::BeginPlay()
@@ -86,6 +88,7 @@ void ACMP302_RNadeCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	//Bind Rnade Swap
 	PlayerInputComponent->BindAction("TimerBomb", IE_Pressed, this, &ACMP302_RNadeCharacter::SwapToTimer);
 	PlayerInputComponent->BindAction("ImpactBomb", IE_Pressed, this, &ACMP302_RNadeCharacter::SwapToImpact);
+	PlayerInputComponent->BindAction("MineBomb", IE_Pressed, this, &ACMP302_RNadeCharacter::SwapToMine);
 
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &ACMP302_RNadeCharacter::MoveForward);
@@ -108,6 +111,11 @@ void ACMP302_RNadeCharacter::SwapToTimer()
 void ACMP302_RNadeCharacter::SwapToImpact()
 {
 	RnadeType = 1;
+}
+
+void ACMP302_RNadeCharacter::SwapToMine()
+{
+	RnadeType = 2;
 }
 
 void ACMP302_RNadeCharacter::OnFire()
@@ -135,6 +143,10 @@ void ACMP302_RNadeCharacter::OnFire()
 			break;
 		case 1:
 			World->SpawnActor<AImpactBomb>(ImpactBomb, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			break;
+		case 2:
+			World->SpawnActor<AMineBomb>(MineBomb, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			break;
 		}
 
 	}

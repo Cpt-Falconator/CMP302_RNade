@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeImpactBomb() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	CMP302_RNADE_API UFunction* Z_Construct_UFunction_AImpactBomb_WhenDestroyed();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	CMP302_RNADE_API UClass* Z_Construct_UClass_AExplosionActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
@@ -32,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeImpactBomb() {}
 		UClass* Class = AImpactBomb::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnHit", &AImpactBomb::execOnHit },
+			{ "WhenDestroyed", &AImpactBomb::execWhenDestroyed },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -107,6 +109,38 @@ void EmptyLinkFunctionForGeneratedCodeImpactBomb() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics
+	{
+		struct ImpactBomb_eventWhenDestroyed_Parms
+		{
+			AActor* Act;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Act;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::NewProp_Act = { "Act", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ImpactBomb_eventWhenDestroyed_Parms, Act), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::NewProp_Act,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ImpactBomb.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AImpactBomb, nullptr, "WhenDestroyed", sizeof(ImpactBomb_eventWhenDestroyed_Parms), Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AImpactBomb_WhenDestroyed()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AImpactBomb_WhenDestroyed_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AImpactBomb_NoRegister()
 	{
 		return AImpactBomb::StaticClass();
@@ -140,6 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeImpactBomb() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AImpactBomb_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AImpactBomb_OnHit, "OnHit" }, // 1404040158
+		{ &Z_Construct_UFunction_AImpactBomb_WhenDestroyed, "WhenDestroyed" }, // 4034040052
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AImpactBomb_Statics::Class_MetaDataParams[] = {
@@ -202,7 +237,7 @@ void EmptyLinkFunctionForGeneratedCodeImpactBomb() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AImpactBomb, 1680154406);
+	IMPLEMENT_CLASS(AImpactBomb, 4243495864);
 	template<> CMP302_RNADE_API UClass* StaticClass<AImpactBomb>()
 	{
 		return AImpactBomb::StaticClass();

@@ -8,8 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UPrimitiveComponent;
 class AActor;
+class UPrimitiveComponent;
 struct FVector;
 struct FHitResult;
 #ifdef CMP302_RNADE_ImpactBomb_generated_h
@@ -18,6 +18,15 @@ struct FHitResult;
 #define CMP302_RNADE_ImpactBomb_generated_h
 
 #define CMP302_RNade_Source_CMP302_RNade_ImpactBomb_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execWhenDestroyed) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_Act); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->WhenDestroyed(Z_Param_Act); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -34,6 +43,15 @@ struct FHitResult;
 
 
 #define CMP302_RNade_Source_CMP302_RNade_ImpactBomb_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execWhenDestroyed) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_Act); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->WhenDestroyed(Z_Param_Act); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \

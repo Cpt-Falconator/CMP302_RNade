@@ -55,6 +55,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 		TSubclassOf<class AImpactBomb> ImpactBomb;
 
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class AMineBomb> MineBomb;
+
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		class USoundBase* FireSound;
@@ -90,6 +93,7 @@ protected:
 
 	void SwapToTimer();
 	void SwapToImpact();
+	void SwapToMine();
 
 protected:
 	// APawn interface

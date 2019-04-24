@@ -18,6 +18,8 @@ class ATimerBomb : public AActor
 		UPROPERTY(VisibleAnywhere, Category = "ProjectileMovement")
 		class UProjectileMovementComponent* ProjectileMovement;
 
+		UPROPERTY(EditDefaultsOnly, Category = "Explosion")
+			TSubclassOf<class AExplosionActor> Explosion;
 
 public:
 	// Sets default values for this actor's properties

@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "TimerBomb.h"
+#include "ExplosionActor.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/StaticMeshComponent.h"
 
@@ -11,7 +12,11 @@ ATimerBomb::ATimerBomb()
 	PrimaryActorTick.bCanEverTick = true;
 
 	timerbombMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("timerbombMesh"));
+	//Deciding if it should be knocked around or destroyed.
+
+	this->Tags.Add(FName("Bomb"));
 	// Set as root component
+
 	RootComponent = timerbombMesh;
 
 	//// Use a ProjectileMovementComponent to govern this projectile's movement
@@ -46,9 +51,10 @@ void ATimerBomb::Tick(float DeltaTime)
 
 void ATimerBomb::Explode()
 {
-	//Apply Particle effect
-	//Create a sphere around object.
-	//Check for damage.
+	UWorld* const World = GetWorld();
+	FActorSpawnParameters ActorSpawnParams;
+	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	World->SpawnActor<AExplosionActor>(Explosion, GetActorLocation(), GetActorRotation(), ActorSpawnParams);
 	Destroy();
 }
 

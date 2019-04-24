@@ -2,15 +2,14 @@
   Creating makefile for CMP302_RNadeEditor (ini files are newer than makefile)
   Parsing headers for CMP302_RNadeEditor
     Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CMP302_RNadeEditor in 9.6409303 seconds
-  Deleted hot-reload file: C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Binaries\Win64\UE4Editor-CMP302_RNade-0014.dll
-  Deleted hot-reload file: C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade-0014.lib
+  Reflection code generated for CMP302_RNadeEditor in 9.9968378 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-CMP302_RNade.lib
+  Building 4 actions with 8 processes...
+    [1/4] MineBomb.cpp
+    [2/4] UE4Editor-CMP302_RNade.lib
        Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.exp
-    [2/3] UE4Editor-CMP302_RNade.dll
+    [3/4] UE4Editor-CMP302_RNade.dll
        Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.suppressed.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.suppressed.exp
-    [3/3] CMP302_RNadeEditor.target
-  Total time in Parallel executor: 2.13 seconds
-  Total execution time: 14.68 seconds
+    [4/4] CMP302_RNadeEditor.target
+  Total time in Parallel executor: 2.73 seconds
+  Total execution time: 15.79 seconds

@@ -23,17 +23,19 @@ AImpactBomb::AImpactBomb()
 	CollisionComp->InitSphereRadius(5.0f);
 	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
 	CollisionComp->OnComponentHit.AddDynamic(this, &AImpactBomb::OnHit);
-
 	RootComponent = CollisionComp;
+	this->Tags.Add(FName("Bomb"));
+	
 
 	//// Use a ProjectileMovementComponent to govern this projectile's movement
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileComp"));
-	ProjectileMovement->UpdatedComponent = RootComponent;
 	ProjectileMovement->InitialSpeed = 1500.f;
 	ProjectileMovement->MaxSpeed = 1500.f;
 	ProjectileMovement->bRotationFollowsVelocity = true;
 
-	InitialLifeSpan = 20.0f;
+	InitialLifeSpan = 60.0f;
+
+	OnDestroyed.AddDynamic(this, &AImpactBomb::WhenDestroyed);
 }
 
 void AImpactBomb::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
@@ -44,8 +46,6 @@ void AImpactBomb::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 	// Only add impulse and destroy projectile if we hit a physics
 	if ((OtherActor != NULL) && (OtherActor != this))
 	{
-		//OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
-		World->SpawnActor<AExplosionActor>(Explosion, GetActorLocation(), GetActorRotation(), ActorSpawnParams);
 		Destroy();
 	}
 }
@@ -54,11 +54,24 @@ void AImpactBomb::BeginPlay()
 {
 	Super::BeginPlay();
 
+	ProjectileMovement->UpdatedComponent = RootComponent;
 }
 
 // Called every frame
 void AImpactBomb::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
 
+void AImpactBomb::Explode()
+{
+	UWorld* const World = GetWorld();
+	FActorSpawnParameters ActorSpawnParams;
+	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	World->SpawnActor<AExplosionActor>(Explosion, GetActorLocation(), GetActorRotation(), ActorSpawnParams);
+}
+
+void AImpactBomb::WhenDestroyed(AActor* Act)
+{
+	Explode();
 }

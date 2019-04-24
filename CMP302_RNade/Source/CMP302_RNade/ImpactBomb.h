@@ -27,7 +27,13 @@ public:
 	UFUNCTION()
 		void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+	UFUNCTION()
+		void WhenDestroyed(AActor* Act);
+
+	virtual void Explode();
+
 	virtual void Tick(float DeltaTime) override;
+
 
 protected:
 	virtual void BeginPlay() override;
