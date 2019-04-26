@@ -90,4 +90,14 @@
       <Filter>Source\CMP302_RNade</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CMP302_RNade\Enemy.h">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CMP302_RNade\Enemy.cpp">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

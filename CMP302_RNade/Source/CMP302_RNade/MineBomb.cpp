@@ -91,12 +91,13 @@ void AMineBomb::WhenDestroyed(AActor* Act)
 void AMineBomb::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	// Only add impulse and destroy projectile if we hit a physics
-	if (OtherComp->ComponentHasTag(FName("Player")))
+	if (OtherComp->ComponentHasTag(FName("Player")) || OtherComp->ComponentHasTag((FName("Enemy"))))
 	{
 		Destroy();
 	}
 	if (OtherActor->ActorHasTag(FName("Bomb")))
 	{
+
 		OtherActor->Destroy();
 	}
 }
