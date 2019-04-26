@@ -21,7 +21,8 @@ AExplosionActor::AExplosionActor()
 
 	ExplosionEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ExplosionEffect"));
 	
-	
+
+	this->Tags.Add(FName("Explosion"));
 }
 
 // Called when the game starts or when spawned
@@ -48,11 +49,6 @@ void AExplosionActor::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* Oth
 	}
 	else if (OtherActor->ActorHasTag(FName("Bomb")))
 	{
-		OtherActor->Destroy();
-	}
-	else if (OtherComp->ComponentHasTag(FName("Enemy")))
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Enemy should be dead")));
 		OtherActor->Destroy();
 	}
 	
