@@ -95,9 +95,4 @@ void AMineBomb::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActo
 	{
 		Destroy();
 	}
-	if (OtherActor->ActorHasTag(FName("Bomb")))
-	{
-
-		OtherActor->Destroy();
-	}
 }

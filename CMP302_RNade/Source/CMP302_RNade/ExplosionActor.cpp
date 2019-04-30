@@ -41,6 +41,7 @@ void AExplosionActor::SetTag(FName toTag)
 {
 	ExplosionComp->ComponentTags.Add(toTag);
 }
+
 // Called every frame
 void AExplosionActor::Tick(float DeltaTime)
 {
