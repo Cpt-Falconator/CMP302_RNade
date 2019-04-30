@@ -94,8 +94,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AExplosionActor); \
 
 #define CMP302_RNade_Source_CMP302_RNade_ExplosionActor_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ExplosionComp() { return STRUCT_OFFSET(AExplosionActor, ExplosionComp); } \
-	FORCEINLINE static uint32 __PPO__ExplosionEffect() { return STRUCT_OFFSET(AExplosionActor, ExplosionEffect); } \
-	FORCEINLINE static uint32 __PPO__explosionRadius() { return STRUCT_OFFSET(AExplosionActor, explosionRadius); }
+	FORCEINLINE static uint32 __PPO__ExplosionEffect() { return STRUCT_OFFSET(AExplosionActor, ExplosionEffect); }
 
 
 #define CMP302_RNade_Source_CMP302_RNade_ExplosionActor_h_9_PROLOG

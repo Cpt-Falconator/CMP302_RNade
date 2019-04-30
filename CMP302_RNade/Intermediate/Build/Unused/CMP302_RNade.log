@@ -2,14 +2,16 @@
   Creating makefile for CMP302_RNadeEditor (ini files are newer than makefile)
   Parsing headers for CMP302_RNadeEditor
     Running UnrealHeaderTool "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\CMP302_RNade.uproject" "C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\CMP302_RNadeEditor\Development\CMP302_RNadeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CMP302_RNadeEditor in 9.693479 seconds
+  Reflection code generated for CMP302_RNadeEditor in 23.5907052 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] Enemy.cpp
-    [2/4] UE4Editor-CMP302_RNade.lib
+  Building 6 actions with 8 processes...
+    [1/6] TripmineBomb.cpp
+    [2/6] ExplosionActor.cpp
+    [3/6] CMP302_RNadeCharacter.cpp
+    [4/6] UE4Editor-CMP302_RNade.lib
        Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.exp
-    [3/4] UE4Editor-CMP302_RNade.dll
+    [5/6] UE4Editor-CMP302_RNade.dll
        Creating library C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.suppressed.lib and object C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Development\CMP302_RNade\UE4Editor-CMP302_RNade.suppressed.exp
-    [4/4] CMP302_RNadeEditor.target
-  Total time in Parallel executor: 3.38 seconds
-  Total execution time: 16.00 seconds
+    [6/6] CMP302_RNadeEditor.target
+  Total time in Parallel executor: 7.54 seconds
+  Total execution time: 35.83 seconds

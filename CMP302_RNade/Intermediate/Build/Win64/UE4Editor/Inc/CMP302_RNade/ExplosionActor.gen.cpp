@@ -125,10 +125,6 @@ void EmptyLinkFunctionForGeneratedCodeExplosionActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionRadius_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_explosionRadius;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ExplosionEffect_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ExplosionEffect;
@@ -154,13 +150,6 @@ void EmptyLinkFunctionForGeneratedCodeExplosionActor() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExplosionActor_Statics::NewProp_explosionRadius_MetaData[] = {
-		{ "Category", "Explosion" },
-		{ "ModuleRelativePath", "ExplosionActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AExplosionActor_Statics::NewProp_explosionRadius = { "explosionRadius", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExplosionActor, explosionRadius), METADATA_PARAMS(Z_Construct_UClass_AExplosionActor_Statics::NewProp_explosionRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_AExplosionActor_Statics::NewProp_explosionRadius_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExplosionActor_Statics::NewProp_ExplosionEffect_MetaData[] = {
 		{ "Category", "Particle Effect" },
 		{ "EditInline", "true" },
@@ -177,7 +166,6 @@ void EmptyLinkFunctionForGeneratedCodeExplosionActor() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AExplosionActor_Statics::NewProp_ExplosionComp = { "ExplosionComp", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExplosionActor, ExplosionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AExplosionActor_Statics::NewProp_ExplosionComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AExplosionActor_Statics::NewProp_ExplosionComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExplosionActor_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExplosionActor_Statics::NewProp_explosionRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExplosionActor_Statics::NewProp_ExplosionEffect,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExplosionActor_Statics::NewProp_ExplosionComp,
 	};
@@ -208,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosionActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AExplosionActor, 2104612320);
+	IMPLEMENT_CLASS(AExplosionActor, 674683413);
 	template<> CMP302_RNADE_API UClass* StaticClass<AExplosionActor>()
 	{
 		return AExplosionActor::StaticClass();

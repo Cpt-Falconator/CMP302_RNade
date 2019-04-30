@@ -10,7 +10,7 @@
 AExplosionActor::AExplosionActor()
 {
 	ExplosionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
-	ExplosionComp->InitSphereRadius(explosionRadius);
+	ExplosionComp->InitSphereRadius(0);
 	ExplosionComp->BodyInstance.SetCollisionProfileName("Projectile");
 	ExplosionComp->OnComponentBeginOverlap.AddDynamic(this, &AExplosionActor::OnOverlap);
 	ExplosionComp->SetVisibility(true, false);
@@ -20,19 +20,27 @@ AExplosionActor::AExplosionActor()
 	InitialLifeSpan = 1.0f;
 
 	ExplosionEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ExplosionEffect"));
-	
 
-	this->Tags.Add(FName("Explosion"));
 }
 
 // Called when the game starts or when spawned
 void AExplosionActor::BeginPlay()
 {
 	Super::BeginPlay();
+	
 	ExplosionEffect->AttachToComponent(ExplosionComp, FAttachmentTransformRules::KeepRelativeTransform);
 	
 }
 
+void AExplosionActor::SetExplosionRadius(float rad)
+{
+	ExplosionComp->SetSphereRadius(rad);
+}
+
+void AExplosionActor::SetTag(FName toTag)
+{
+	ExplosionComp->ComponentTags.Add(toTag);
+}
 // Called every frame
 void AExplosionActor::Tick(float DeltaTime)
 {

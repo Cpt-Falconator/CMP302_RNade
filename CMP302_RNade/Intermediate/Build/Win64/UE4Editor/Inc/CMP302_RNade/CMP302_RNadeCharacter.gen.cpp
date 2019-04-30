@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeCMP302_RNadeCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	CMP302_RNADE_API UClass* Z_Construct_UClass_ASonarScan_NoRegister();
 	CMP302_RNADE_API UClass* Z_Construct_UClass_AMineBomb_NoRegister();
 	CMP302_RNADE_API UClass* Z_Construct_UClass_AImpactBomb_NoRegister();
 	CMP302_RNADE_API UClass* Z_Construct_UClass_ATimerBomb_NoRegister();
@@ -49,6 +50,10 @@ void EmptyLinkFunctionForGeneratedCodeCMP302_RNadeCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SScan_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_SScan;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MineBomb_MetaData[];
 #endif
@@ -120,6 +125,13 @@ void EmptyLinkFunctionForGeneratedCodeCMP302_RNadeCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_FireSound = { "FireSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACMP302_RNadeCharacter, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_FireSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_SScan_MetaData[] = {
+		{ "Category", "Scan" },
+		{ "ModuleRelativePath", "CMP302_RNadeCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_SScan = { "SScan", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACMP302_RNadeCharacter, SScan), Z_Construct_UClass_ASonarScan_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_SScan_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_SScan_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_MineBomb_MetaData[] = {
 		{ "Category", "Projectile" },
@@ -206,6 +218,7 @@ void EmptyLinkFunctionForGeneratedCodeCMP302_RNadeCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_FireSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_SScan,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_MineBomb,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_ImpactBomb,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACMP302_RNadeCharacter_Statics::NewProp_TimerBomb,
@@ -244,7 +257,7 @@ void EmptyLinkFunctionForGeneratedCodeCMP302_RNadeCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACMP302_RNadeCharacter, 3638295545);
+	IMPLEMENT_CLASS(ACMP302_RNadeCharacter, 1253545558);
 	template<> CMP302_RNADE_API UClass* StaticClass<ACMP302_RNadeCharacter>()
 	{
 		return ACMP302_RNadeCharacter::StaticClass();

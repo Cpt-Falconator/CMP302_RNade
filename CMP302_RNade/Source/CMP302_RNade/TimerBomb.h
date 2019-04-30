@@ -33,6 +33,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Explosion")
 		float countdownTimer;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Explosion")
+		float explosionRadius;
+
 private:
 
 

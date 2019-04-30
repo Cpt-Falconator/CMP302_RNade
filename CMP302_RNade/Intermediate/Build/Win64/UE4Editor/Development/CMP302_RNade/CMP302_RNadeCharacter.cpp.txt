@@ -11,6 +11,8 @@ c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\ImpactBomb.
 C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\ImpactBomb.generated.h
 c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\MineBomb.h
 C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\MineBomb.generated.h
+c:\users\falco\desktop\cmp302_rnade\cmp302_rnade\source\cmp302_rnade\SonarScan.h
+C:\Users\falco\Desktop\CMP302_RNade\CMP302_RNade\Intermediate\Build\Win64\UE4Editor\Inc\CMP302_RNade\SonarScan.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h

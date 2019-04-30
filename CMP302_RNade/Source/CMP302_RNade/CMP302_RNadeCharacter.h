@@ -58,6 +58,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 		TSubclassOf<class AMineBomb> MineBomb;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Scan")
+		TSubclassOf<class ASonarScan> SScan;
+
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		class USoundBase* FireSound;
@@ -95,6 +98,7 @@ protected:
 	void SwapToImpact();
 	void SwapToMine();
 
+	void StartScan();
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;

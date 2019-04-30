@@ -15,7 +15,7 @@ AEnemy::AEnemy()
 	PrimaryActorTick.bCanEverTick = true;
 
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AEnemy::OnOverlap);
-	this->Tags.Add(FName("Enemy"));
+	Tags.Add(FName("Enemy"));
 }
 
 // Called when the game starts or when spawned
@@ -39,9 +39,16 @@ void AEnemy::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, 
 {
 	// Only add impulse and destroy projectile if we hit a physics
 
-	if (OtherActor->ActorHasTag(FName("Explosion")))
+	if (OtherComp->ComponentHasTag(FName(TEXT("Explosion"))))
 	{
-		HitPoints -= 50;
+		if(OtherComp->ComponentHasTag(FName(TEXT("TimerExplosion"))))
+		{
+		HitPoints -= 100.f;
+		}
+		else
+		{
+			HitPoints -= 50.f;
+		}
 	}
-
+		
 }

@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATimerBomb); \
 	FORCEINLINE static uint32 __PPO__timerbombMesh() { return STRUCT_OFFSET(ATimerBomb, timerbombMesh); } \
 	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(ATimerBomb, ProjectileMovement); } \
 	FORCEINLINE static uint32 __PPO__Explosion() { return STRUCT_OFFSET(ATimerBomb, Explosion); } \
-	FORCEINLINE static uint32 __PPO__countdownTimer() { return STRUCT_OFFSET(ATimerBomb, countdownTimer); }
+	FORCEINLINE static uint32 __PPO__countdownTimer() { return STRUCT_OFFSET(ATimerBomb, countdownTimer); } \
+	FORCEINLINE static uint32 __PPO__explosionRadius() { return STRUCT_OFFSET(ATimerBomb, explosionRadius); }
 
 
 #define CMP302_RNade_Source_CMP302_RNade_TimerBomb_h_10_PROLOG

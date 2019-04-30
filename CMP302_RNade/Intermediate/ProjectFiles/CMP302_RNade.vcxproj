@@ -463,6 +463,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\CMP302_RNade-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\CMP302_RNade\SonarScan.cpp" />
+    <ClInclude Include="..\..\Source\CMP302_RNade\SonarScan.h" />
     <None Include="..\..\CMP302_RNade.uproject" />
     <None Include="..\..\Source\CMP302_RNade.Target.cs" />
     <None Include="..\..\Source\CMP302_RNadeEditor.Target.cs" />
@@ -480,8 +482,6 @@
     <ClInclude Include="..\..\Source\CMP302_RNade\CMP302_RNadeGameMode.h" />
     <ClCompile Include="..\..\Source\CMP302_RNade\CMP302_RNadeHUD.cpp" />
     <ClInclude Include="..\..\Source\CMP302_RNade\CMP302_RNadeHUD.h" />
-    <ClCompile Include="..\..\Source\CMP302_RNade\CMP302_RNadeProjectile.cpp" />
-    <ClInclude Include="..\..\Source\CMP302_RNade\CMP302_RNadeProjectile.h" />
     <ClCompile Include="..\..\Source\CMP302_RNade\Enemy.cpp" />
     <ClCompile Include="..\..\Source\CMP302_RNade\ExplosionActor.cpp" />
     <ClInclude Include="..\..\Source\CMP302_RNade\Enemy.h" />

@@ -51,10 +51,13 @@ void ATimerBomb::Tick(float DeltaTime)
 
 void ATimerBomb::Explode()
 {
+	FName explosionType = FName(TEXT("TimerExplosion"));
 	UWorld* const World = GetWorld();
 	FActorSpawnParameters ActorSpawnParams;
 	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-	World->SpawnActor<AExplosionActor>(Explosion, GetActorLocation(), GetActorRotation(), ActorSpawnParams);
+	AExplosionActor* Obj = World->SpawnActor<AExplosionActor>(Explosion, GetActorLocation(), GetActorRotation(), ActorSpawnParams);
+	Obj->SetExplosionRadius(explosionRadius);
+	Obj->SetTag(explosionType);
 	Destroy();
 }
 

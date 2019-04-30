@@ -4,6 +4,7 @@
 #include "TimerBomb.h"
 #include "ImpactBomb.h"
 #include "MineBomb.h"
+#include "SonarScan.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -90,6 +91,8 @@ void ACMP302_RNadeCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAction("ImpactBomb", IE_Pressed, this, &ACMP302_RNadeCharacter::SwapToImpact);
 	PlayerInputComponent->BindAction("MineBomb", IE_Pressed, this, &ACMP302_RNadeCharacter::SwapToMine);
 
+	PlayerInputComponent->BindAction("SonarScan", IE_Pressed, this, &ACMP302_RNadeCharacter::StartScan);
+
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &ACMP302_RNadeCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ACMP302_RNadeCharacter::MoveRight);
@@ -116,6 +119,18 @@ void ACMP302_RNadeCharacter::SwapToImpact()
 void ACMP302_RNadeCharacter::SwapToMine()
 {
 	RnadeType = 2;
+}
+
+void ACMP302_RNadeCharacter::StartScan()
+{
+	UWorld* const World = GetWorld();
+	if (World != NULL)
+	{
+		FActorSpawnParameters ActorSpawnParams;
+		ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+		World->SpawnActor<ASonarScan>(SScan, GetActorLocation(), GetActorRotation(), ActorSpawnParams);
+	}
 }
 
 void ACMP302_RNadeCharacter::OnFire()

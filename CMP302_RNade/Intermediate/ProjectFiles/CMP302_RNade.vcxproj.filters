@@ -59,12 +59,6 @@
     <ClInclude Include="..\..\Source\CMP302_RNade\CMP302_RNadeHUD.h">
       <Filter>Source\CMP302_RNade</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\CMP302_RNade\CMP302_RNadeProjectile.cpp">
-      <Filter>Source\CMP302_RNade</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\CMP302_RNade\CMP302_RNadeProjectile.h">
-      <Filter>Source\CMP302_RNade</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\CMP302_RNade\ExplosionActor.cpp">
       <Filter>Source\CMP302_RNade</Filter>
     </ClCompile>
@@ -94,9 +88,15 @@
     <ClInclude Include="..\..\Source\CMP302_RNade\Enemy.h">
       <Filter>Source\CMP302_RNade</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CMP302_RNade\SonarScan.h">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CMP302_RNade\Enemy.cpp">
+      <Filter>Source\CMP302_RNade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CMP302_RNade\SonarScan.cpp">
       <Filter>Source\CMP302_RNade</Filter>
     </ClCompile>
   </ItemGroup>
