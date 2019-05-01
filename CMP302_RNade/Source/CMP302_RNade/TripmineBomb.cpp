@@ -54,18 +54,7 @@ void ATripmineBomb::BeginPlay()
 	Super::BeginPlay();
 
 	sensorColl->AttachToComponent(tripmineMesh, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
-	
 
-}
-
-void ATripmineBomb::SetExplosionRadius(float rad)
-{
-	ExplosionComp->SetSphereRadius(rad);
-}
-
-void ATripmineBomb::SetTag(FName toTag)
-{
-	ExplosionComp->ComponentTags.Add(toTag);
 }
 
 // Called every frame
@@ -74,7 +63,16 @@ void ATripmineBomb::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-//For when the object is stationary and searches for another tripmine to connect to
+void ATripmineBomb::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if(OtherActor != NULL)
+	{
+		TripmineMesh->SetActorRotation(Hit.ImpactNormal());
+		tripmineColl->SetBoxExtent(FVector(20, 2, 2));
+		tripmineColl->Set
+	}
+}
+	//For when the object is stationary and searches for another tripmine to connect to
 void ATripmineBomb::OnSensorOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	// Only add impulse and destroy projectile if we hit a physics
